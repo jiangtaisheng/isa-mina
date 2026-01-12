@@ -1,0 +1,34 @@
+.ad-banner {
+  width: 100%;
+
+  .ad-placeholder {
+    height: 200rpx;
+    background: linear-gradient(135deg, #f5f7fa 0%, #e4e8eb 100%);
+    border-radius: 16rpx;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12rpx;
+
+    .ad-text {
+      font-size: 28rpx;
+      color: #999999;
+      font-weight: 500;
+    }
+
+    .ad-hint {
+      font-size: 22rpx;
+      color: #bbbbbb;
+    }
+  }
+
+  .ad-content {
+    height: 200rpx;
+    background: #ffffff;
+    border-radius: 16rpx;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

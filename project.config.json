@@ -1,0 +1,18 @@
+{
+  "miniprogramRoot": "dist/",
+  "projectname": "isa-mina",
+  "description": "isa-mina 微信小程序",
+  "appid": "wx85a973c90daf0984",
+  "setting": {
+    "urlCheck": true,
+    "es6": false,
+    "enhance": false,
+    "compileHotReLoad": false,
+    "postcss": false,
+    "minified": false,
+    "bundle": false,
+    "bigPackageSizeSupport": true
+  },
+  "compileType": "miniprogram",
+  "condition": {}
+}

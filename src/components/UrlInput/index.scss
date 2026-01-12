@@ -1,0 +1,90 @@
+.url-input {
+  padding: 30px;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+
+  .input-wrapper {
+    display: flex;
+    align-items: center;
+    background: #f5f5f5;
+    border-radius: 12px;
+    padding: 0 24px;
+    height: 88px;
+
+    .input-field {
+      flex: 1;
+      height: 100%;
+      font-size: 28px;
+      color: #333;
+    }
+
+    .placeholder {
+      color: #bbb;
+    }
+
+    .clear-btn {
+      width: 44px;
+      height: 44px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #ccc;
+      border-radius: 50%;
+      margin-left: 16px;
+
+      text {
+        font-size: 24px;
+        color: #fff;
+        font-weight: bold;
+      }
+    }
+  }
+
+  .action-row {
+    display: flex;
+    margin-top: 24px;
+
+    .paste-btn {
+      flex: 1;
+      height: 80px;
+      line-height: 80px;
+      background: #fff;
+      color: #1890ff;
+      font-size: 28px;
+      border: 2px solid #1890ff;
+      border-radius: 40px;
+      margin-right: 20px;
+
+      &[disabled] {
+        opacity: 0.5;
+      }
+    }
+
+    .submit-btn {
+      flex: 2;
+      height: 80px;
+      line-height: 80px;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: #fff;
+      font-size: 28px;
+      font-weight: 600;
+      border: none;
+      border-radius: 40px;
+
+      &[disabled] {
+        opacity: 0.5;
+      }
+    }
+  }
+
+  .tips {
+    margin-top: 20px;
+    text-align: center;
+
+    .tip-text {
+      font-size: 24px;
+      color: #999;
+    }
+  }
+}
